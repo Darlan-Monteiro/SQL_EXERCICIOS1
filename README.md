@@ -1,11 +1,9 @@
-Ótima adição! Incluir o link para o download do banco de dados é uma excelente prática, pois permite que outras pessoas recriem seu ambiente e testem os scripts.
-
-Ajustei a seção "Como Utilizar" para incluir essa informação. Aqui está a versão atualizada e completa do seu README.md:
-
 📊 Exercícios de SQL com a Base de Dados Contoso
+
 Este repositório contém um script SQL com uma série de exercícios resolvidos, focados em análise e consulta de dados da empresa fictícia Contoso. As questões abordam cenários práticos de verificação de dados, marketing, ações de premiação e gestão de fornecedores.
 
 🎯 Objetivo
+
 O objetivo deste script é demonstrar a aplicação de comandos SQL para resolver problemas de negócio comuns, como:
 
 Validação da integridade e quantidade de registros em tabelas.
@@ -17,6 +15,7 @@ Filtragem de dados para campanhas de marketing e premiação de clientes.
 Identificação de informações distintas para gestão de fornecedores.
 
 📂 Estrutura do Script
+
 O arquivo SQL é dividido em quatro questões principais, cada uma com seus próprios sub-itens.
 
 Questão 1: Controle de Dados (Clientes e Produtos)
@@ -45,11 +44,13 @@ Para comemorar seus 10 anos, a Contoso decidiu premiar seus clientes mais antigo
 3.D) Renomeia as colunas do item C para o português.
 
 Questão 4: Gestão de Fornecedores
+
 O setor de compras precisa de uma lista com todos os fornecedores para planejar a reposição de estoque.
 
 A consulta utiliza SELECT DISTINCT para retornar uma lista com os nomes únicos dos fornecedores (Manufacturer) da tabela DimProduct, renomeando a coluna para 'Fornecedor'.
 
-#🛠️ Como Utilizar
+🛠️ Como Utilizar
+
 Para executar este script, você precisará de um ambiente SQL, como o SQL Server Management Studio ou Azure Data Studio. As consultas foram desenvolvidas utilizando a base de dados de exemplo Contoso BI Demo Dataset for Retail Industry.
 
 Baixe o banco de dados: Faça o download do arquivo de backup (.bak) no site oficial da Microsoft:
